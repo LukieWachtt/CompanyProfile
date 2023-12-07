@@ -5,18 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV. Selomakmur Landing Page</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
 </head>
 <body>
   <header>
     <div class="container">
-      <div class="container-header">
-        <!-- Start of Logo! -->
         <div class="logo-wrapper">
-          <a href="/"><img src="https://4.bp.blogspot.com/-m0PTNQjX2vU/UzD43ZFQuXI/AAAAAAAABzk/fDBvCc3dzsk/s1600/logoJSIT-300x300.png" 
-            alt="logo cv selomakmur alternative lol"></a>
+          <a href="/"> CV. <span>SELO</span> MAKMUR</a>
         </div>
-        <!-- End of Logo -->
-      </div>
             <!-- Start of Nav -->
             <nav>
               <div class="nav-wrapper">
@@ -36,7 +32,8 @@
   
   <main>
     <section id="home">
-        <div class="title">
+        <div class="title" data-aos="fade-up"
+        data-aos-duration="800">
           <h1>CV. SELO MAKMUR</h1>
           <div>
             <button class="tombol">SELENGKAPNYA</button>
@@ -45,6 +42,41 @@
     </section>
 <!-- males lanjutin, paling pas perpulangan aja besok heheheheheh -->
 
+    <section id="about">
+      <div class="container-about" data-aos="fade-up" data-aos-duration="500">
+        <div class="title-top">
+          <h1>ABOUT CV. SELO MAKMUR</h1>
+          <p>Scroll Down</p>
+          <i class="chevron bottom"></i>
+        </div>
+
+        <div class="box-about1" data-aos="fade-up" data-aos-duration="1000">
+          <div class="item-left" data-aos="fade-up" data-aos-duration="1500">
+            <div class="title-gitu">
+              <div class="gelar">Top Quality</div>
+              <div class="gelar">Professional</div>
+            </div>
+            <h1>Trusted by THOUSANDS of Clients all across the globe.</h1>
+            <ul> 
+              <li>Been Operating since 1998</li>
+              <li>Quality Product</li>
+              <li>Only from the best for the best. </li>
+            </ul>
+          </div>
+          <div class="item-right">
+            <img src="https://i.pinimg.com/564x/56/8d/3d/568d3d1d2fd036f0a14c0993ade344ec.jpg" alt="" class="item1">
+          </div>
+        </div>
+        <div class="box-aboutkiri" data-aos="fade-up-right"></div>
+        <div class="box-aboutkanan" data-aos="fade-up-left"></div>
+      </div>
+    </section>
+    
   </main>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="node_modules/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
